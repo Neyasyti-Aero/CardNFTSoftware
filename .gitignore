@@ -1,0 +1,5 @@
+project/MDK_V5/listings/
+project/MDK_V5/objects/
+project/MDK_V5/*.scvd
+project/MDK_V5/*.uvguix*
+project/MDK_V5/*.uvoptx
