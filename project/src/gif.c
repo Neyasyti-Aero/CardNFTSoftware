@@ -129,11 +129,11 @@ void PlayGif()
 {
 	g_bGIFStartRequest = 0;
 	g_bGIFPlaying = 1;
-	g_iCurrentFrame = 0;
+	g_iCurrentFrame = 1;
 	g_iDirection = 1;
 	LCD_Fill(LCD, COLOR_BLACK);
 	LCD_SetBackLight(LCD, 100); // turn backlight off
-	ShowFrame(0);
+	ShowFrame(1);
 	delay_ms(50);
 	LCD_SetBackLight(LCD, 0); // turn backlight back on
 	while (!g_bGIFStopRequest)
