@@ -109,7 +109,7 @@ void NextImage()
 			g_iCurrentImage++;
 			g_bShowImageRequest = 1;
 	}
-	delay_ms(50);
+	delay_ms(100);
 }
 
 void PreviousImage()
@@ -126,5 +126,5 @@ void PreviousImage()
 	{
 		g_bGIFStartRequest = 1;
 	}
-	delay_ms(50);
+	delay_ms(100);
 }
