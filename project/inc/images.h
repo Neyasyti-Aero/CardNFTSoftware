@@ -11,7 +11,10 @@
 #define IMAGE4 2
 #define IMAGE5 3
 #define IMAGE6 4
-#define LAST_IMAGE IMAGE6
+#define IMAGE7 5
+#define IMAGE8 6
+#define IMAGE9 7
+#define LAST_IMAGE IMAGE9
 
 extern uint8_t g_bShowImageRequest;
 extern uint8_t g_iCurrentImage;
